@@ -1,0 +1,24 @@
+{
+    "name": "CompanyChatbot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "https://50cb1fad6971-10696225366992573415.ngrok-free.app/api/messages",
+            "id": "21972950-20b8-11ee-ace1-a374bdff78d8",
+            "appId": "U6YPtOIfy_Q.6S0_J7saWSQrK1ebDEQNZ4ZaZmFZrw7Jycfz_a_iMQo",
+            "appPassword": "U6YPtOIfy_Q.lnEtv9V0YbEEGgKK9CpM6WdES04IKwPlVq6Neh1qZhA",
+            "endpoint": "https://50cb1fad6971-10696225366992573415.ngrok-free.app/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "endpoint": "https://50cb1fad6971-10696225366992573415.ngrok-free.app/api/messages",
+            "name": "ngrok-static",
+            "id": "173"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\nvfbe\\coding\\enterpriseChatbot\\CompanyChatbot.bot",
+    "overrides": null
+}

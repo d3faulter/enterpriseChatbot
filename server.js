@@ -15,8 +15,9 @@ server.listen(3978, () => {
     console.log(`\n${server.name} listening to ${server.url}`);
 });
 
-server.post(`${process.env.NGROK_URL}/api/messages`, async (req, res) => {
+server.post('/api/messages', async (req, res) => {
     adapter.processActivity(req, res, async (context) => {
+        // Process message in bot
         await bot.run(context);
     }).catch((err) => {
         console.error(err);
